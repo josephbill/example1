@@ -1,0 +1,6 @@
+pwd : prints the working directory
+cd  : change directory : navigate inside a directory
+ls : lists content within a location
+cd .. : navigate outside a directory
+mkdir : make directory : used to make folders 
+touch : used to make files 
