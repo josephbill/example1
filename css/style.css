@@ -1,0 +1,26 @@
+/* styling by tagname  */
+		  img{
+		  	width: 250px;
+		  	height: 250px;
+		  	display: block;
+		  	margin: auto;
+		  } 
+          p {
+          	text-align: center;
+          	color: red;
+          	font-family: cursive;
+          }
+          		/* styling by id attribute  */
+          #lorem{
+          	color: black;
+          	font-family: fantasy;
+          }
+          		/* styling by class  */
+          .btn{
+          	background-color: blue;
+          	color: #fff;
+          	display: block;
+          	margin: auto;
+          	padding: 20px;
+/*          	margin: 20px;
+*/          }
