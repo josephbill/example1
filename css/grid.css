@@ -1,0 +1,101 @@
+#divOne{
+   grid-area: one;
+   text-align: center;
+}
+
+#divTwo{
+   background-color: green;
+          grid-area: two;
+
+}
+
+#divThree{
+   background-color: yellow;
+          grid-area: three;
+
+}
+
+#divFour{
+   background-color: black;
+   color: white;
+       grid-area: four;
+
+}
+
+#divFive{
+   background-color: brown;
+       grid-area: five;
+
+}
+
+#divSix{
+	   background-color: blue;
+       grid-area: six;
+
+}
+
+.grid-container{
+     display: grid;
+     grid-gap: 10px;
+     grid-template-areas: 
+     'one one one one one one'
+     'two three three three three three'
+     'four five five five five six'
+}
+
+
+li{
+	display: inline;
+	padding: 20px;
+	text-align: center;
+}
+
+@media screen and (width: 360px) {
+	#divOne{
+   background-color: red;
+   grid-area: oneMedia;
+}
+
+#divTwo{
+   background-color: green;
+          grid-area: twoMedia;
+
+}
+
+#divThree{
+   background-color: yellow;
+          grid-area: threeMedia;
+
+}
+
+#divFour{
+   background-color: black;
+   color: white;
+       grid-area: fourMedia;
+
+}
+
+#divFive{
+   background-color: brown;
+       grid-area: fiveMedia;
+
+}
+
+#divSix{
+	   background-color: blue;
+       grid-area: sixMedia;
+
+}
+   .grid-container{
+   	  display: grid;
+   	  grid-gap: 10px;
+   	  grid-template-areas: 
+   	  'oneMedia oneMedia oneMedia oneMedia oneMedia oneMedia'
+   	  'twoMedia twoMedia twoMedia twoMedia twoMedia twoMedia'
+   	  'threeMedia threeMedia threeMedia threeMedia threeMedia threeMedia'
+   	  'fourMedia fourMedia fourMedia fourMedia fourMedia fourMedia'
+   	  'fiveMedia fiveMedia fiveMedia fiveMedia fiveMedia fiveMedia'
+   	  'sixMedia sixMedia sixMedia sixMedia sixMedia sixMedia'
+   }
+
+}
